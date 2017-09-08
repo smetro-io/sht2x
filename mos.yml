@@ -1,0 +1,20 @@
+author: smetro-io
+type: lib
+description: A SHT2x lib
+version: 1.0
+
+sources:
+  - src
+filesystem:
+  - mjs_fs
+config_schema:
+libs:
+  - origin: https://github.com/mongoose-os-libs/i2c
+tags:
+  - c
+  - sht2x
+  - sensor
+  - js
+  - hw
+
+manifest_version: 2017-06-16
